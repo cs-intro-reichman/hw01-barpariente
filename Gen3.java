@@ -4,24 +4,20 @@ public class Gen3 {
         int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
         int min, max; 
-        if ( a > b) {
+        min = Math.min(a,b);
+        max = Math.max(a,b); 
+        
 
-            min = b;
-            max = a; 
-        }
-        else {
+            int rand1 = (int)((Math.random()*(max-min)+min));
+            System.out.println(rand1);
+            int rand2 = (int)((Math.random()*(max-min)+min));
+            System.out.println(rand2);
+            int rand3 = (int)((Math.random()*(max-min)+min));
+            System.out.println(rand3);
 
-            min = a; 
-            max = b;
-        }
+            int min2 = Math.min(rand1,rand2);
+            int min3 = Math.min(min2,rand3);
+            System.out.println("The minimal generated number was " + min2);
 
-        for (int i = 0; i < 3; i++) {
-
-            int rand = (int)((Math.random()*(max-min)+min));
-            System.out.println(rand);
-        }
-
-            System.out.println("The minimal generated number was " + min);
-        }
-
-    }
+   }
+}
