@@ -8,7 +8,7 @@ public class Triangle {
 
         triangle = (((a + b) > c) && ((a+c) > b) && ((b+c) > a));
 
-            System.out.println(a +" " + b + " " + c + " :" + triangle);
+            System.out.println(a +", " + b + ", " + c + " :" + triangle);
 
         }
 
