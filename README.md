@@ -9,7 +9,7 @@ git config --global user.name "Your Name"
 git config --global user.email "your.name@runi.ac.il"
 ```
 
-### Assignment Details
+### Assignment Details 
 
 - **Repository:** repository_link = cs-intro-reichman/hw01-username
 
