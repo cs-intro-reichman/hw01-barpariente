@@ -7,7 +7,7 @@ public class LinearEq {
         
         double x = ((double)(c-b))/(a); 
 
-        System.out.println((double)(a) + " * X + " + (double)(b) + " = " + (double)(c));
+        System.out.println((double)(a) + " * X + " + (double)(b) + " =" + (double)(c));
         System.out.println("x = " + x);
     }
 }
