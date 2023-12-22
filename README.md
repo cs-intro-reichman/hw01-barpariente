@@ -12,7 +12,7 @@ git config --global user.email "your.name@runi.ac.il"
 ### Assignment Details 
 
 - **Repository:** repository_link = cs-intro-reichman/hw01-username
-
+ 
 ### Task Overview
 
 1. **Clone the Repository:**
