@@ -4,6 +4,6 @@ public class Coins {
         int Sumcent = Integer.parseInt(args[0]);
         
         
-        System.out.println("use " + (Sumcent/25) + " quarters and " + (Sumcent%25) + " cents");
+        System.out.println("Use " + (Sumcent/25) + " quarters and " + (Sumcent%25) + " cents");
     }
 }
