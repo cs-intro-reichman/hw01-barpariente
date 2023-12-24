@@ -20,7 +20,7 @@ public class GenThree {
 
             	int min2 = Math.min(rand1,rand2);
            	int min3 = Math.min(min2,rand3);
-            	System.out.println("The minimal generated number was " + min2);
+            	System.out.println("The minimal generated number was " + min3);
 
 	}
 }
